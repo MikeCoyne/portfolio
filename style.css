@@ -1,0 +1,135 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 100%;
+    max-height: auto;
+}
+
+body {
+    margin: 5em;
+}
+
+.header {
+    display: block;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: block;
+    border-style: double;
+    border-radius: 33px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: aquamarine;
+    align-self: flex-end;
+}
+
+.topnav a {
+    color:darkblue;
+    text-decoration: none;
+    font-size: 1.5em;
+    justify-content:space-around;
+    nav-right: auto;
+
+}
+
+
+#about {
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 39px;
+}
+
+#work {
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 39px;
+}
+
+#bunny {
+    
+    margin-right:auto;
+    margin-bottom:auto;
+    padding: 10px;
+    position: relative;
+    top: -90px;
+    left: 40em;
+    display:inline;
+    flex: 1 0 300px;
+}
+
+/* .header {
+    padding: 20px;
+    background-color: aquamarine;
+} */
+
+
+/* header nav {
+    text-align:right;
+} */
+
+/* h1 {
+    display:inline-block;
+} */
+
+
+
+/* .header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: x-large;
+    font-family: ‘Courier New’, Courier, monospace;
+}
+.header nav ul {
+    /* display: inline-block; */
+    /* margin-bottom: auto;
+    display: flex;
+    justify-content: right; 
+    left: -800px;
+} */
+
+
+footer {
+    clear: left;
+    float: right;
+}
+
+
+button {
+    border-width: 30px;
+    flex: auto;
+}
+
+h2 p {
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 0 300px;
+}
+
+
+/* <div class="topnav">
+  
+  <a href="#about">AbourMe</a>
+  <a href="#contact">Contact</a>
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>
+</div> */
+
+@media screen and (max-width 900px) {
+    img {
+        flex: 1 0 300px;
+    }
+}
+    
