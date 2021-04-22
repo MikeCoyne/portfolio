@@ -15,15 +15,32 @@ body {
 .header {
     display: block;
     flex-wrap: wrap;
+   
 }
+
+
+
+
 
 #nav {
     display: block;
     border-style: double;
     border-radius: 33px;
-    float: right;
-    justify-content:space-evenly;
+    float: center;
+    justify-content:space-between;
+    background-color: lightblue;
+
 }
+
+#navright {
+    float: right;
+    align-content: space-between;
+}
+
+
+/* ul a {
+    flex-flow: row;
+} */
 
 
 /* .topnav {
@@ -46,6 +63,7 @@ body {
     outline: none;
 
 }
+
 #about {
     border-style: solid;
     border-color: darkblue;
@@ -59,48 +77,36 @@ body {
 }
 
 
-/* 
-#bunny {
+
+ #bunny {
     
     margin-right:auto;
     margin-bottom:auto;
     padding: 10px;
     position: relative;
-    top: -90px;
-    left: 40em;
-    display:inline;
-    flex: 1 0 300px;
-} */
-
-/* .header {
-    padding: 20px;
-    background-color: aquamarine;
-} */
-
-
-/* header nav {
-    text-align:right;
-} */
-
-/* h1 {
+    top: -150px;
+    left: 60em;
     display:inline-block;
-} */
+    
+}
 
 
 
-/* .header nav ul li {
+
+ /* .header nav ul li {
     display: inline-block;
     margin-left: 35px;
     font-size: x-large;
     font-family: ‘Courier New’, Courier, monospace;
-}
-.header nav ul {
-    /* display: inline-block; */
-    /* margin-bottom: auto;
+} */
+
+/* .header nav ul {
+    display: inline-block; 
+    margin-bottom: auto;
     display: flex;
     justify-content: right; 
     left: -800px;
-} */
+}  */
 
 
 footer {
@@ -111,8 +117,11 @@ footer {
 
 button {
     border-width: 10px;
+    padding: 5px;
+    margin: 5px;
     size: 200px;
     flex: auto;
+    
 }
 
 h2 {
@@ -141,6 +150,14 @@ img {
     margin: 0px;
 } */
 
+p {
+    text-align: center;
+    border-style: double;
+    border-radius: 11px;
+    justify-content: space-evenly;
+
+}
+
 
 
 /* <div class="topnav">
@@ -153,9 +170,34 @@ img {
   </div>
 </div> */
 
-@media screen and (max-width 900px) {
+@media screen and (max-width: 900px) {
+        img {
+        width: 50%;
+        position:absolute;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+           img     {
+        max-width: 30%;
+        position:absolute;
+    }
+}
+
+@media screen and (max-width: 400px) {
     img {
-        flex: auto;
+        width:auto
     }
 }
     
+
+
+@media screen and (max-width: 800px){
+    .header img {
+        position:absolute;
+        left:unset;
+        flex-wrap: wrap;
+    }
+}
