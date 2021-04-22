@@ -17,29 +17,35 @@ body {
     flex-wrap: wrap;
 }
 
-nav {
+#nav {
     display: block;
     border-style: double;
     border-radius: 33px;
+    float: right;
+    justify-content:space-evenly;
 }
 
 
-.topnav {
+/* .topnav {
     overflow: hidden;
     background-color: aquamarine;
     align-self: flex-end;
-}
+} */
 
-.topnav a {
+/* .topnav a {
     color:darkblue;
     text-decoration: none;
     font-size: 1.5em;
-    justify-content:space-around;
+    justify-content: space-around;
     nav-right: auto;
 
+} */
+
+#myBtn {
+    border: none;
+    outline: none;
+
 }
-
-
 #about {
     border-style: solid;
     border-color: darkblue;
@@ -52,6 +58,8 @@ nav {
     border-radius: 39px;
 }
 
+
+/* 
 #bunny {
     
     margin-right:auto;
@@ -62,7 +70,7 @@ nav {
     left: 40em;
     display:inline;
     flex: 1 0 300px;
-}
+} */
 
 /* .header {
     padding: 20px;
@@ -96,18 +104,24 @@ nav {
 
 
 footer {
-    clear: left;
+    clear: both;
     float: right;
 }
 
 
 button {
-    border-width: 30px;
+    border-width: 10px;
+    size: 200px;
     flex: auto;
+}
+
+h2 {
+    text-align: center;
 }
 
 h2 p {
     justify-content: space-between;
+    
 }
 
 img {
@@ -115,6 +129,18 @@ img {
     height: auto;
     flex: 1 0 300px;
 }
+
+/* .buttonsposition {
+    background-image: url(./assets/images.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+} */
+
 
 
 /* <div class="topnav">
@@ -129,7 +155,7 @@ img {
 
 @media screen and (max-width 900px) {
     img {
-        flex: 1 0 300px;
+        flex: auto;
     }
 }
     
