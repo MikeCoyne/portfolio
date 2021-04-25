@@ -8,4 +8,7 @@ It includes a navigation bar near the top of the page, which links to 1)about me
 There is a "back to the top" link towards the bottom of the page, followed by the final link, an image of me in a bunny suit. It links
  to a website called Bandcamp.com, where my album is posted online. 
 
- 
+ ![ScreenShot](./portfolio/assets/screenshot.jpg) 
+
+
+
