@@ -3,6 +3,19 @@
     box-sizing: border-box;
 }
 
+.work-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    display:flex;
+    width:auto;
+    height:fit-content;
+}
+
+
 
 body {
     margin:5px;
@@ -99,14 +112,19 @@ button {
     border-width: 5px;
     padding: 5px;
     margin: 5px;
-    size: 200px;
+    size: 50px;
     flex: auto;
     
 }
 
 button:hover {
     background-color:turquoise;
-    padding: 10px 20px;
+    padding: 5px 10px;
+}
+
+
+.work-button {
+    padding: 25px 35px;
 }
 
 /* 
